@@ -6,7 +6,7 @@ const post = {
   list: <PostList />,
   edit: <PostEdit />,
   show: <PostShow />,
-  options: { label: 'Post' },
+  options: { label: 'Posts' },
 };
 
 export default post;

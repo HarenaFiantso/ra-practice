@@ -1,5 +1,5 @@
-import {ReactNode} from "react";
+import { ReactNode } from 'react';
 
 export default function PostShow(): ReactNode {
-  return <>Post Show</>
+  return <>Post Show</>;
 }
