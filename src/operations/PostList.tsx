@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Datagrid, EditButton, List, NumberField, ReferenceField, TextField } from 'react-admin';
+import {Datagrid, EditButton, List, NumberField, ReferenceField, ShowButton, TextField} from 'react-admin';
 
 export default function PostList(): ReactNode {
   return (
@@ -9,6 +9,7 @@ export default function PostList(): ReactNode {
         <NumberField source='id' />
         <TextField source='title' />
         <TextField source='body' />
+        <ShowButton />
         <EditButton />
       </Datagrid>
     </List>
