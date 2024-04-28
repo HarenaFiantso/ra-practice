@@ -1,6 +1,6 @@
 import { Admin, Resource } from 'react-admin';
 import { dataProvider } from './providers/dataProvider';
-import post from "./operations";
+import post from './operations';
 
 export const App = () => (
   <Admin dataProvider={dataProvider}>
