@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import {Datagrid, EditButton, List, NumberField, ReferenceField, ShowButton, TextField} from 'react-admin';
+import { Datagrid, EditButton, List, NumberField, ReferenceField, ShowButton, TextField } from 'react-admin';
 
 export default function PostList(): ReactNode {
   return (
